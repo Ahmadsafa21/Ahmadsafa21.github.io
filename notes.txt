@@ -1,0 +1,15 @@
+TODO:
+
+
+1. Build the project
+    -creating the folders
+    -adding the files
+    -connecting files
+
+2. Navigation bar
+    -hyperlinks and name
+    
+3. Portofolio item grid (what our website is going to be about)
+
+
+4. Have interactions with each image
