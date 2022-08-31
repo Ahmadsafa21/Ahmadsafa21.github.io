@@ -1,0 +1,144 @@
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <meta charset="utf-8" />
+    <title>Lebanon Food Guide</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="home_page">
+    <div class="container">
+      <div class="nav_wrapper">
+        <div class="left_side">
+          <div class="nav_link_wrapper active_nav_link">
+            <a href="index.html">Home</a>
+          </div>
+
+          <div class="nav_link_wrapper">
+            <a href="about.html">About</a>
+          </div>
+        </div>
+
+        <div class="right_side">
+          <div class="brandName">
+            <div>Lebanese Food Guide</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content_wrapper">
+        <div class="portfolio_items_wrapper">
+          <a href="breakfast.html" class="portfolio_item_wrapper">
+            <img
+              class="cover"
+              src="images/pic1.webp"
+              srcset="images/pic1.webp 2x"
+            />
+            <div class="img_txt_wrapper">
+              <div class="txt_on_img">
+                <p>Breakfast Restaurants</p>
+              </div>
+            </div>
+          </a>
+          <a href="fancy.html" class="portfolio_item_wrapper">
+            <img
+              class="cover"
+              src="images/pic2.webp"
+              srcset="images/pic2.webp 2x"
+            />
+
+            <div class="img_txt_wrapper">
+              <div class="txt_on_img">Fancy Dinner</div>
+            </div>
+          </a>
+          <a href="gems.html" class="portfolio_item_wrapper">
+            <img
+              class="cover"
+              src="images/pic3.webp"
+              srcset="images/pic3.webp 2x"
+            />
+            <div class="img_txt_wrapper">
+              <div class="txt_on_img">Hidden Gems</div>
+            </div>
+          </a>
+          <a href="lebanese.html" class="portfolio_item_wrapper">
+            <img
+              class="cover"
+              src="images/pic4.webp"
+              srcset="images/pic4.webp 2x"
+            />
+            <div class="img_txt_wrapper">
+              <div class="txt_on_img">Lebanese Food Restaurants</div>
+            </div>
+          </a>
+          <a href="american.html" class="portfolio_item_wrapper">
+            <img
+              class="cover"
+              src="images/pic5.webp"
+              srcset="images/pic5.webp 2x"
+            />
+            <div class="img_txt_wrapper">
+              <div class="txt_on_img">American Food Restaurants</div>
+            </div>
+          </a>
+          <a href="italian.html" class="portfolio_item_wrapper">
+            <img
+              class="cover"
+              src="images/pic6.webp"
+              srcset="images/pic6.webp 2x"
+            />
+            <div class="img_txt_wrapper">
+              <div class="txt_on_img">Italian Food Restaurants</div>
+            </div>
+          </a>
+          <a href="mexican.html" class="portfolio_item_wrapper">
+            <img
+              class="cover"
+              src="images/pic7.webp"
+              src="images/pic7.webp 2x"
+            />
+            <div class="img_txt_wrapper">
+              <div class="txt_on_img">Mexican Food Restaurants</div>
+            </div>
+          </a>
+          <a href="sushi.html" class="portfolio_item_wrapper">
+            <img
+              class="cover"
+              src="images/pic8.webp"
+              src="images/pic8.webp 2x"
+            />
+            <div class="img_txt_wrapper">
+              <div class="txt_on_img">Sushi Restaurants</div>
+            </div>
+          </a>
+          <a href="chinese.html" class="portfolio_item_wrapper">
+            <img
+              class="cover"
+              src="images/pic9.webp"
+              src="images/pic9.webp 2x"
+            />
+            <div class="img_txt_wrapper">
+              <div class="txt_on_img">Chinese Food Restaurants</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    const items = document.querySelectorAll(".portfolio_item_wrapper");
+    items.forEach((item) => {
+      item.addEventListener("mouseover", () => {
+        item.childNodes[1].classList.add("img-darken");
+      });
+      item.addEventListener("mouseout", () => {
+        item.childNodes[1].classList.remove("img-darken");
+      });
+    });
+  </script>
+</html>
