@@ -1,0 +1,242 @@
+body.home_page {
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+  background-image: url("images/background.webp");
+}
+
+body.about_page {
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+  background-image: url("images/background123.webp");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body.breakfast_page {
+  background-image: url("images/food_background1.webp");
+  font-family: "Lato", sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body.fancy_page {
+  background-image: url("images/food_background3.webp");
+  font-family: "Lato", sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body.gems_page {
+  background-image: url("images/food_background4.webp");
+  font-family: "Lato", sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body.italian_page {
+  background-image: url("images/italian_bg.webp");
+  font-family: "Lato", sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body.lebanese_page {
+  background-image: url("images/lebanese_bg.webp");
+  font-family: "Lato", sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body.mexican_page {
+  background-image: url("images/mexican_bg.webp");
+  font-family: "Lato", sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body.american_page {
+  background-image: url("images/american_bg.webp");
+  font-family: "Lato", sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body.sushi_page {
+  background-image: url("images/sushi_background.webp");
+  font-family: "Lato", sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body.chinese_page {
+  background-image: url("images/chinese_bg.webp");
+  font-family: "Lato", sans-serif;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.nav_wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+
+.left_side {
+  display: flex;
+}
+
+.nav_wrapper > .left_side > div {
+  margin-right: 20px;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.right_side {
+  color: white;
+}
+
+.nav_link_wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.nav_link_wrapper a {
+  color: #f5efef;
+  text-decoration: none;
+  transition: color 0.4s;
+}
+
+.nav_link_wrapper:hover {
+  border-bottom: 1px solid black;
+}
+
+.nav_link_wrapper a:hover {
+  color: black;
+}
+
+.active_nav_link {
+  border-bottom: 1px solid black;
+  color: #f5efef;
+}
+
+.active_nav_link a {
+  color: white !important;
+  color: #f5efef;
+}
+
+.portfolio_items_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio_item_wrapper {
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: 350px;
+}
+
+.cover {
+  object-fit: cover;
+}
+
+.img_txt_wrapper {
+  position: absolute;
+  top: 0;
+  right: 50;
+  left: 50;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.logo_wrapper img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.img_txt_wrapper .txt_on_img {
+  transition: 1s;
+  font-weight: 600;
+  color: transparent;
+  text-decoration: none;
+}
+
+.img_txt_wrapper:hover .txt_on_img {
+  font-weight: 600;
+  color: rgb(248, 252, 252);
+}
+
+.img-darken {
+  transition: 1s;
+  filter: brightness(10%);
+}
+
+/*About me page style */
+
+.two_column_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.profile_pic_wrapper img {
+  width: 100%;
+}
+
+.profile_content_wrapper {
+  padding: 30px;
+  color: white;
+}
+
+.profile_content_wrapper h1 {
+  color: wheat;
+}
+
+/* breakfast page */
+
+.rest_list {
+  color: white;
+  text-align: center;
+  list-style-position: inside;
+}
+.inside_list {
+  text-align: left;
+  display: inline-block;
+  margin-top: 15%;
+  background-color: black;
+  padding: 20px;
+
+  line-height: 2;
+}
